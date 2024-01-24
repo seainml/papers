@@ -12,6 +12,10 @@ Former MSS: 通常用于学习从混合声谱（spectrogram）--> 一组声谱�
 
 ## Solution(How)
 
+架构 143层 resUnet
+- 6 REB 6RDB 均含有 4x RCB， 后者有上采样的transposed转置卷积层
+- RCB 有2个卷积层 3x3 卷积核 输入输出有快捷连结 leaky ReLU（0.01负斜率）2x2 池化层减小特征图大小
+- REB和RDB之间有中间卷积块4xICB 含4xRCB
 
 
 ## Contributions（Where）
@@ -36,6 +40,7 @@ SDR（signal-to-distortion ration）: 信噪比
 CSMT: 中国声音与音乐技术会议
 
 MUDB18数据集：
+
 
 
 
