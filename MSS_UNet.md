@@ -1,7 +1,7 @@
 ## Source
-https://arxiv.org/pdf/2109.05418.pdf
-https://github.com/bytedance/music_source_separation
-https://huggingface.co/spaces/akhaliq/Music_Source_Separation
+https://arxiv.org/pdf/2109.05418.pdf  
+https://github.com/bytedance/music_source_separation  
+https://huggingface.co/spaces/akhaliq/Music_Source_Separation  
 
 ## Problem(What)
 Former MSS: 通常用于学习从混合声谱（spectrogram）--> 一组声谱，声谱图只有幅度，有一下限制
